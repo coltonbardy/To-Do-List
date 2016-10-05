@@ -26,6 +26,8 @@ li {
 	height: 40px;
 	line-height: 40px;
 	color: #668;
+	font-size: 20px;
+	border: 1px dotted navy;
 }
 
 span {
@@ -47,7 +49,6 @@ input{
 	width: 100%;
 	padding: 13px 13px 13px 20px;
 	box-sizing: border-box;
-	border: 3px solid rgba (0, 0, 0, 0);
 }
 
 li:nth-of-child(2n){
@@ -69,6 +70,7 @@ input:focus{
 .completed {
 	color: gray;
 	text-decoration: line-through;
+	font-size: 16px;
 }
 
 
@@ -81,4 +83,6 @@ input:focus{
 	margin: 100px auto;
 	background-color: #f7f7f7;
 	box-shadow: 0 0 3 px rgba(0, 0, 0, 0.1);
+	box-sizing: border-box;
+	border: 2px solid black;
 }
